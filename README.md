@@ -45,6 +45,20 @@ npm test
 zip -r cl-currencyapi.zip .
 ```
 
+## Docker
+
+If you wish to use Docker to run the adapter, you can build the image by running the following command:
+
+```bash
+docker build . -t currencyapi-adapter
+```
+
+Then run it with:
+
+```bash
+docker run -p 8080:8080 -e API_KEY='YOUR_API_KEY' -it currencyapi-adapter:latest
+```
+
 ## Install to AWS Lambda
 
 - In Lambda Functions, create function
