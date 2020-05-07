@@ -1,5 +1,7 @@
 # Chainlink CurrencyAPI External Adapter
 
+**This adapter has moved to our [external adapters monorepo](https://github.com/smartcontractkit/external-adapters-js)!**
+
 ## Input Params
 
 - `from`: The currency symbol to convert from
